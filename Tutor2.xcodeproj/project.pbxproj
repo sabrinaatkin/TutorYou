@@ -14,6 +14,7 @@
 		07A7F42A1E87621800EA4F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A7F4281E87621800EA4F9D /* LaunchScreen.storyboard */; };
 		07A7F4351E87621900EA4F9D /* Tutor2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7F4341E87621900EA4F9D /* Tutor2Tests.swift */; };
 		07A7F4401E87621900EA4F9D /* Tutor2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7F43F1E87621900EA4F9D /* Tutor2UITests.swift */; };
+		07A7F44E1E877FB900EA4F9D /* TutorSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7F44D1E877FB900EA4F9D /* TutorSignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		07A7F43B1E87621900EA4F9D /* Tutor2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutor2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A7F43F1E87621900EA4F9D /* Tutor2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor2UITests.swift; sourceTree = "<group>"; };
 		07A7F4411E87621900EA4F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A7F44D1E877FB900EA4F9D /* TutorSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorSignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				07A7F4261E87621800EA4F9D /* Assets.xcassets */,
 				07A7F4281E87621800EA4F9D /* LaunchScreen.storyboard */,
 				07A7F42B1E87621900EA4F9D /* Info.plist */,
+				07A7F44D1E877FB900EA4F9D /* TutorSignUpViewController.swift */,
 			);
 			path = Tutor2;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07A7F4221E87621800EA4F9D /* ViewController.swift in Sources */,
+				07A7F44E1E877FB900EA4F9D /* TutorSignUpViewController.swift in Sources */,
 				07A7F4201E87621800EA4F9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				07A7F4461E87621900EA4F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07A7F4471E87621900EA4F9D /* Build configuration list for PBXNativeTarget "Tutor2Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				07A7F4491E87621900EA4F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07A7F44A1E87621900EA4F9D /* Build configuration list for PBXNativeTarget "Tutor2UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				07A7F44C1E87621900EA4F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
